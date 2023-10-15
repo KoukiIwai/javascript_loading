@@ -9,4 +9,7 @@ function animation(){
 }
 
 //画面が読み込まれたら animation を呼び出す
-window.addEventListener('load', animation);
+// window.addEventListener('load', animation);
+
+// 指定秒後に動作させる
+window.setTimeout( animation, 2000 );
